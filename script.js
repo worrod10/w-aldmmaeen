@@ -15,6 +15,19 @@ $(window).on('scroll load', function(){
 
 });
 
+
+
+// Click funcation here 
+
+
+function NewTab() {
+    window.open(
+      "https://worodsaeed1.medium.com/", "_blank");
+}
+
+
+
+
 // smooth scrolling 
 
 // $('a[href*="#"]').on('click',function(e){

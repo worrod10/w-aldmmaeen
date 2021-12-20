@@ -175,7 +175,7 @@ header .navbar ul li a:hover{
     width: 500rem;
     flex:1 1 48rem;
     padding:2rem 1rem;
-    padding-left: 6rem;
+    padding-left: 4rem;
 }
 
 .about .row .info h3{
@@ -196,23 +196,35 @@ header .navbar ul li a:hover{
     display: flex;
     justify-content: center;
     flex-wrap:wrap;
+
 }
 .about .row .counter .box{
-    width:fit-content;
+    width:18rem;
     background:#222;
+    border-radius: 1rem;
     text-align: center;
     padding: 2rem;
     margin:2rem;
 }
+.about .row .counter .box:hover{
+    transform: scale(1.2);
+}
 
 .about .row .counter .box span{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:var(--blue);
 }
 
 .about .row .counter .box h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:#fff;
+    cursor: pointer;
+}
+.about .row .counter .box a{
+    font-size: 1.5rem;
+    color:#fff;
+    text-decoration: none;
+    cursor: pointer;
 }
 .about button .btn{
     align-items: center;
